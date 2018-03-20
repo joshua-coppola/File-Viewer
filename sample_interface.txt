@@ -1,0 +1,17 @@
+preface.txt
+--------------------------------------------------
+  1  After a few computer science courses, students may start to
+  2  get the feeling that programs can always be written to
+  3  solve any computational problem.  Writing the program may
+  4  be hard work.  For example, it may involve learning a
+  5  difficult technique.  And many hours of debugging.  But
+  6  with enough time and effort, the program can be written.
+  7
+  8  So it may come as a surprise that this is not the case:
+  9  there are computational problems for which no program
+ 10  exists.  And these are not ill-defined problems (Can a
+--------------------------------------------------
+  next  previous  open  quit 
+-------
+command: o
+file: introduction.txt
