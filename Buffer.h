@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <sstream>
 
 class Buffer
 {
@@ -23,9 +24,11 @@ public:
 
 private:
     std::vector<std::string> v_lines_;
+	std::vector<std::string> v_links_;
     int ix_top_line_ = 0;
     std::string file_name_;
     int window_height_;
+	void anchor(std::string & line);
 };
 
 inline void Buffer::move_to_next_page()
