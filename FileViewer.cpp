@@ -25,7 +25,7 @@ void FileViewer::display()
     cout << long_separator << endl;
     buffer_.display();
     cout << long_separator << endl;
-    cout << "  next  previous  search  open  quit\n";
+    cout << "  next  previous  search  go open  quit\n";
     cout << short_separator << endl;
 }
 
@@ -60,6 +60,10 @@ void FileViewer::execute_command(char command, bool & done)
             break;
         }
 
+		case 'g': {
+
+			break;
+		}
         case 'q': {
             done = true;
             break;
